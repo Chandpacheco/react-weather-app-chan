@@ -5,19 +5,21 @@ import "./App.css";
 export default function App() {
   return (
     <div className="App">
-      <div className="container">
-        <Weather defaultCity="Pikeville" />
+      <div className="container-one">
+        <div className="container-two">
+          <Weather defaultCity="Pikeville" />
+        </div>
+        <footer>
+          This page was built by{" "}
+          <a
+            href="https://www.linkedin.com/in/chandlerpacheco/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Chandler Pacheco
+          </a>
+        </footer>
       </div>
-      <footer>
-        This page was built by{" "}
-        <a
-          href="https://www.linkedin.com/in/chandlerpacheco/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Chandler Pacheco
-        </a>
-      </footer>
     </div>
   );
 }

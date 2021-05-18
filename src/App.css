@@ -1,7 +1,12 @@
-.App {
+.container-one {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.container-two {
   border: 1px solid #2d728f;
   padding: 15px;
-  margin: 20px auto;
+  margin: 0px auto;
   border-radius: 10px;
   max-width: 600px;
   background-image: linear-gradient(to top, #5aadc4 0%, #f7b578 100%);
@@ -14,11 +19,11 @@ body {
   border-color: #f5ee9e;
 }
 
-body {
+h1 {
   font-size: 35px;
-  font-weight: 100;
+  font-weight: 200;
   line-height: 28px;
-  margin: 0;
+  margin-bottom: 10px;
 }
 
 ul {
@@ -58,8 +63,14 @@ li:first-letter {
   font-weight: 400;
   line-height: 1;
 }
-.units {
-  top: -19px;
+
+.Main-temp {
+  font-size: 45px;
+}
+
+.WeatherTemperature .units {
+  margin-top: 0 auto;
+  font-size: 20px;
 }
 
 .units .active {
@@ -88,4 +99,7 @@ col {
 
 .App footer {
   font-size: 10px;
+  text-align: left;
+  margin-left: 5px;
+  margin-top: -5px;
 }
