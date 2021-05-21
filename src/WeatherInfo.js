@@ -6,7 +6,7 @@ import WeatherTemperature from "./WeatherTemperature";
 export default function WeatherInfo(props) {
   return (
     <div className="WeatherInfo">
-      <WeatherIcon code={props.data.icon} size={100} />
+      <WeatherIcon code={props.data.icon} size={150} />
       <span className="Main-temp">
         <WeatherTemperature celsius={Math.round(props.data.temperature)} />
       </span>

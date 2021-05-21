@@ -5,17 +5,22 @@
 .WeatherForecast-temperature-min {
   opacity: 0.6;
   margin-left: 5px;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 150;
+  margin-top: -10px;
 }
 
 .WeatherForecast-temperature-max {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 200;
+  margin-top: -10px;
 }
 
 .WeatherForecast-day {
-  margin-bottom: 10px;
-  font-size: 32px;
+  margin-bottom: 5px;
+  font-size: 28px;
   font-weight: 200;
+}
+.col {
+  padding: 0;
 }
